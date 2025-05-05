@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Pule | Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- Header -->
+        <header class="header">
+          <div class="header-left">
+            <a href="#" class="name" id="name-link">Gabriel Pule</a>
+           <!-- <div class="role-dropdown header-dropdown" id="header-dropdown">
+              <select id="header-role-select" onchange="syncSelects(this)">
+                <option value="Product Designer">Product Designer</option>
+                <option value="UX Designer">UX Designer</option>
+                <option value="UI Designer">UI Designer</option>
+              </select>
+              <span class="dropdown-arrow">▾</span>
+            </div>-->
+          </div>
+          <div class="header-right">
+          <!--  <a href="resume.pdf" download class="header-link">
+              
+              Resume
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>-->
+            <a href="mailto:gabrielc.pule@gmail.com" class="header-link email-visible" id="header-link">
+              
+              gabrielc.pule@gmail.com
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="mailto:gabrielc.pule@gmail.com" class="header-link email-hidden" id="header-link">
+              
+              gabrielc.pule
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/gabrielpule" target="_blank" rel="noopener noreferrer" class="header-link">
+              Linkedin
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg>
+
+            </a>
+          </div>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="intro-section">
+          <h2 class="intro-title">Hi,</h2>
+          <h2 class="intro-title">I'm Gabriel Pule</h2>
+          <!--<div class="intro-role">-->
+            <h2 class="intro-title">Lead Product Designer</h2>
+            <h2 class="intro-title">13 years of Experience</h2>
+            <!--<div class="role-dropdown">
+              <select id="intro-role-select" onchange="syncSelects(this)">
+                <option value="Product Designer">Product Designer</option>
+                <option value="UX Designer">UX Designer</option>
+                <option value="UI Designer">UI Designer</option>
+              </select>
+              <span class="dropdown-arrow">▾</span>*/-->
+            </div>
+          </div>
+        </section>
+
+        <!-- Cases -->
+        <section class="cases">
+          <h3 class="cases-title">Cases</h3>
+          
+          <div class="case-list" id="case-list">
+            <!-- Product Designer Cases -->
+            <div class="case-item product-designer ux-designer" id="case-form-builder">
+              <div class="case-header">
+                <a href="#case-form-builder" class="case-trigger" onclick="toggleCase('case-form-builder'); return false;">
+                  <span class="case-arrow">►</span>
+                  <span class="case-title">E2E Form builder Experience: <span class="case-subtitle">Increasing User Adoption Through Simplified Experience</span></span>
+                </a>
+              </div>
+              <div class="case-content">
+                <div class="case-study">
+                  
+                  <section class="client-overview">
+                      <h5>Client Overview</h5>
+                      <p>A leading workflow automation platform that enables companies to digitize processes, create workflows, implement automations, and integrate with existing software systems. The platform is highly versatile, allowing users to create full-scale products using it as their backend.</p>
+                  </section>
+                  
+                  <section class="challenge">
+                      <h5>Challenge</h5>
+                      <p>As a UX designer on the user squad, I was tasked with addressing a critical business challenge: while the platform excelled at serving complex enterprise needs, it struggled to attract and retain users with simpler requirements. Our form-building tool was particularly problematic, as new users found it overwhelming compared to competitor offerings, leading to high churn rates.</p>
+                  </section>
+                  
+                  <section class="my-role">
+                      <h5>My Role</h5>
+                      <p>Lead UX Designer within a cross-functional team consisting of:</p>
+                      <ul>
+                          <li>Product Manager</li>
+                          <li>Delivery Manager</li>
+                          <li>10 Engineers</li>
+                      </ul>
+                  </section>
+                  
+                  <section class="process">
+                      <h5>Process</h5>
+                      
+                      <div class="subsection">
+                          <h6>Discovery & Research</h6>
+                          <ol>
+                              <li>
+                                  <strong>User Interviews</strong> Conducted in-depth interviews with current users to understand:
+                                  <ul>
+                                      <li>Tools they used before adopting our platform</li>
+                                      <li>Their goals when engaging with our form builder</li>
+                                      <li>Pain points in their current workflow</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Success Pattern Analysis</strong> Identified and interviewed users who started with simple form needs but eventually expanded usage across their organizations to uncover adoption patterns.
+                              </li>
+                              <li>
+                                  <strong>Stakeholder Consultation</strong> Gathered insights from internal stakeholders to align business objectives with user needs.
+                              </li>
+                              <li>
+                                  <strong>Competitive Analysis</strong> Benchmarked our form building capabilities against industry competitors, revealing significant usability gaps.
+                              </li>
+                              <li>
+                                  <strong>Risk Evaluation</strong> Assessed potential risks in our current tool and proposed solutions.
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Ideation & Design</h6>
+                          <ol>
+                              <li>
+                                  <strong>Design Thinking Workshops</strong> Facilitated collaborative sessions with the entire team to:
+                                  <ul>
+                                      <li>Share user research insights</li>
+                                      <li>Build empathy for user challenges</li>
+                                      <li>Prioritize which problems to tackle first</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Design Sprint</strong> Organized a cross-functional design sprint that included:
+                                  <ul>
+                                      <li>Team members from various departments</li>
+                                      <li>Stakeholders who used the platform daily</li>
+                                      <li>Focused ideation on simplifying the form-building experience</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Sketching & Ideation</strong> Created multiple design concepts that addressed key user pain points:
+                                  <ul>
+                                      <li>Developed a more intuitive drag-and-drop interface</li>
+                                      <li>Simplified the form creation process</li>
+                                      <li>Improved preview functionality</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Prototype Development</strong> Built interactive prototypes of the redesigned form builder interface that was more similar to familiar tools like Google Forms.
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Testing & Validation</h6>
+                          <ol>
+                              <li>
+                                  <strong>Usability Testing</strong> Conducted tests with 13 users from our customer base, ranging from new users to power users:
+                                  <ul>
+                                      <li>Created realistic, open-ended tasks</li>
+                                      <li>Observed pain points and moments of confusion</li>
+                                      <li>Gathered qualitative feedback on the new design</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Key Findings</strong> Discovered that:
+                                  <ul>
+                                      <li>Users with simple needs felt overwhelmed by the previous interface</li>
+                                      <li>Most users expected a visual form builder similar to other tools in the market</li>
+                                      <li>Users prioritized seeing form responses immediately after creation</li>
+                                  </ul>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Implementation Strategy</h6>
+                          <ol>
+                              <li>
+                                  <strong>Template Library</strong> Created dedicated form templates based on common use cases identified in user research.
+                              </li>
+                              <li>
+                                  <strong>Dashboard Redesign</strong> Developed a new dashboard focused on key user priorities:
+                                  <ul>
+                                      <li>Immediate access to form responses</li>
+                                      <li>Easy sharing capabilities</li>
+                                      <li>Visual representation of submission analytics</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Phased Delivery</strong> Planned incremental releases to:
+                                  <ul>
+                                      <li>Deliver value quickly</li>
+                                      <li>Gather real-world usage data</li>
+                                      <li>Refine the experience based on actual user behavior</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Opportunity Solution Tree</strong> Used this framework to prioritize features that would have the highest impact on our key metrics.
+                              </li>
+                              <li>
+                                  <strong>Experimentation</strong> Developed hypotheses based on user behavior and tested solutions through A/B testing.
+                              </li>
+                          </ol>
+                      </div>
+                  </section>
+                  
+                  <section class="results">
+                      <h5>Results</h5>
+                      
+                      <div class="subsection">
+                          <h6>Quantitative Impact</h6>
+                          <ul>
+                              <li><strong>40% increase</strong> in user sign-ups following the redesign</li>
+                              <li>Exceeded retention goals by <strong>178%</strong></li>
+                              <li>Significant increase in form template usage</li>
+                              <li>High retention rate for users engaging with the new form builder</li>
+                          </ul>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Qualitative Impact</h6>
+                          <ul>
+                              <li>Improved user satisfaction with the form building experience</li>
+                              <li>Simplified onboarding for new users with basic needs</li>
+                              <li>Created clear pathways for users to discover more advanced features as their needs evolved</li>
+                          </ul>
+                      </div>
+                  </section>
+                  
+                  <section class="learnings">
+                      <h5>Learnings & Continuous Improvement</h5>
+                      <ol>
+                          <li>
+                              <strong>Ongoing Analysis</strong> Utilized heat maps and session recordings to identify areas for further optimization.
+                          </li>
+                          <li>
+                              <strong>User Feedback Loop</strong> Established continuous feedback mechanisms to inform future iterations.
+                          </li>
+                          <li>
+                              <strong>Edge Cases</strong>: Identified that while we successfully served 80% of use cases, certain industry-specific requirements remained as opportunities for future development.
+                          </li>
+                      </ol>
+                      <p>This project demonstrated the power of user-centered design to drive business results by meeting users where they are rather than where we wanted them to be. By simplifying the initial experience while maintaining a path to our more powerful features, we were able to significantly increase both acquisition and retention metrics.</p>
+                  </section>
+              </div>
+                <!--<div class="case-image">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="placeholder-image">
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <path d="M7 7l10 10M17 7L7 17" />
+                  </svg>
+                </div>-->
+              </div>
+            </div>
+
+            <div class="case-item product-designer ui-designer" id="case-low-code">
+              <div class="case-header">
+                <a href="#case-low-code" class="case-trigger" onclick="toggleCase('case-low-code'); return false;">
+                  <span class="case-arrow">►</span>
+                  <span class="case-title">Efficiency through process: <span class="case-subtitle">Transforming a Developer Tool into a Low-Code Form Builder </span></span>
+                </a>
+              </div>
+              <div class="case-content">
+                <div class="case-study">
+
+                  
+                  <section class="client-overview">
+                      <h5>Client Overview</h5>
+                      <p>Easy Checklist is a low-code web and mobile platform designed to enhance operational efficiency. The software empowers companies to create and manage digital checklists and action plans for various inspection processes across stores, factories, vehicles, equipment, and environments.</p>
+                  </section>
+                  
+                  <section class="challenge">
+                      <h5>Challenge</h5>
+                      <p>The platform was originally developed as a technical tool requiring developer expertise. As the company vision evolved toward becoming a comprehensive "Digital Inspection Experience Platform," there was a critical need to transform the product into a business-friendly, low-code solution that non-technical users could easily adopt.</p>
+                  </section>
+                  
+                  <section class="goal">
+                      <h5>Goal</h5>
+                      <p>Design an intuitive, low-code form builder that could support a wide spectrum of business needs—from basic inspection checklists to complex applications like mortgage processing or health and safety inspections with automated action plans.</p>
+                  </section>
+                  
+                  <section class="my-role">
+                      <h5>My Role</h5>
+                      <p>As the Product Designer, I collaborated with a cross-functional team including product managers, data scientists, delivery managers, and approximately 15 developers. My responsibilities encompassed:</p>
+                      <ul>
+                          <li>User research and problem definition</li>
+                          <li>Conducting stakeholder interviews and user surveys</li>
+                          <li>Competitive analysis and usage pattern evaluation</li>
+                          <li>User journey mapping across different customer segments</li>
+                          <li>Facilitating collaborative workshops with stakeholders</li>
+                          <li>Creating wireframes and interactive prototypes</li>
+                          <li>Conducting usability testing with both technical and non-technical users</li>
+                          <li>Designing the visual interface and interaction patterns</li>
+                          <li>Analyzing post-launch metrics and driving continuous improvement</li>
+                      </ul>
+                  </section>
+                  
+                  <section class="process">
+                      <h5>Process</h5>
+                      
+                      <div class="subsection">
+                          <h6>Discovery & Research</h6>
+                          <ol>
+                              <li>
+                                  <strong>Stakeholder Interviews</strong>
+                                  <p>I began by conducting interviews with key stakeholders to understand the strategic vision for transforming Easy Checklist from a developer tool to a business user platform. These conversations revealed the tension between maintaining powerful functionality while creating an accessible interface.</p>
+                              </li>
+                              <li>
+                                  <strong>User Segmentation</strong>
+                                  <p>Through analysis of existing usage data and customer interviews, I identified several distinct user personas:</p>
+                                  <ul>
+                                      <li>Technical administrators who needed advanced functionality</li>
+                                      <li>Business analysts who needed to create complex forms without coding</li>
+                                      <li>Field operators who needed to quickly create simple checklists</li>
+                                      <li>Industry-specific users with specialized requirements (healthcare, manufacturing, etc.)</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Competitive Analysis</strong>
+                                  <p>I conducted an extensive analysis of both direct competitors in the inspection space and adjacent products in the low-code/no-code market. This research helped identify:</p>
+                                  <ul>
+                                      <li>Common patterns and conventions in low-code interfaces</li>
+                                      <li>Feature sets that differentiated successful products</li>
+                                      <li>Approaches to balancing simplicity with power</li>
+                                      <li>Industry-specific functionality that needed to be incorporated</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>User Journey Mapping</strong>
+                                  <p>I mapped the current and desired user journeys for each persona, identifying pain points, opportunities, and key moments that would define a successful experience.</p>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Ideation & Design Strategy</h6>
+                          <ol>
+                              <li>
+                                  <strong>Design Principles</strong>
+                                  <p>Based on research insights, I established design principles specific to this project:</p>
+                                  <ul>
+                                      <li><strong>Progressive disclosure:</strong> Surface basic functionality first, with advanced features accessible but not overwhelming</li>
+                                      <li><strong>Contextual guidance:</strong> Provide help and suggestions based on user actions and form complexity</li>
+                                      <li><strong>Visual construction:</strong> Prioritize drag-and-drop and visual building over configuration and coding</li>
+                                      <li><strong>Familiar patterns:</strong> Leverage interaction models that users would recognize from common software</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Design Workshop</strong>
+                                  <p>I facilitated a collaborative workshop with product managers, developers, and customer success teams to align on priorities and generate ideas for the new interface.</p>
+                              </li>
+                              <li>
+                                  <strong>Information Architecture</strong>
+                                  <p>I created a comprehensive taxonomy of form elements, field types, and actions that would need to be supported in the new builder, organizing them into logical groups based on user mental models.</p>
+                              </li>
+                              <li>
+                                  <strong>Concept Development</strong>
+                                  <p>I explored multiple conceptual approaches for the interface, focusing on how to balance:</p>
+                                  <ul>
+                                      <li>Simplicity vs. power</li>
+                                      <li>Template-based workflows vs. complete customization</li>
+                                      <li>Linear forms vs. complex branching logic</li>
+                                      <li>Basic field types vs. specialized industry components</li>
+                                  </ul>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Wireframing & Prototyping</h6>
+                          <ol>
+                              <li>
+                                  <strong>Interface Sketching</strong>
+                                  <p>I created numerous sketches exploring different approaches to the form builder interface, focusing on the core patterns that would define the user experience.</p>
+                              </li>
+                              <li>
+                                  <strong>Wireframe Development</strong>
+                                  <p>I developed comprehensive wireframes that addressed:</p>
+                                  <ul>
+                                      <li>The form builder interface with component library</li>
+                                      <li>Form logic and conditional flows</li>
+                                      <li>Field configuration options</li>
+                                      <li>Preview capabilities and testing tools</li>
+                                      <li>Template management and sharing</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Interactive Prototyping</strong>
+                                  <p>I created high-fidelity interactive prototypes focusing on key user flows:</p>
+                                  <ul>
+                                      <li>Creating a new form from scratch</li>
+                                      <li>Modifying a template for specific needs</li>
+                                      <li>Setting up conditional logic and branching</li>
+                                      <li>Configuring automated actions based on form responses</li>
+                                      <li>Testing and previewing forms before publication</li>
+                                  </ul>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Testing & Validation</h6>
+                          <ol>
+                              <li>
+                                  <strong>Usability Testing</strong>
+                                  <p>I conducted multiple rounds of usability testing with different user segments:</p>
+                                  <ul>
+                                      <li>Technical users familiar with the previous version</li>
+                                      <li>Business users with no prior experience</li>
+                                      <li>Industry-specific users with specialized requirements</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Iterative Refinement</strong>
+                                  <p>Based on testing feedback, I made significant iterative improvements to the design, focusing on areas where users encountered confusion or difficulty.</p>
+                              </li>
+                              <li>
+                                  <strong>Technical Validation</strong>
+                                  <p>I worked closely with developers to ensure design concepts could be implemented efficiently and would perform well at scale.</p>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Implementation & Launch</h6>
+                          <ol>
+                              <li>
+                                  <strong>Design System Integration</strong>
+                                  <p>I ensured the new form builder components aligned with the broader product design system while establishing new patterns specific to the builder experience.</p>
+                              </li>
+                              <li>
+                                  <strong>Developer Handoff</strong>
+                                  <p>I created detailed specifications and guidelines for the development team, including interaction details, edge cases, and accessibility requirements.</p>
+                              </li>
+                              <li>
+                                  <strong>Phased Release</strong>
+                                  <p>I collaborated with product management to define a phased release strategy that allowed for continuous feedback and iteration.</p>
+                              </li>
+                              <li>
+                                  <strong>Post-Launch Analysis</strong>
+                                  <p>After launch, I analyzed usage patterns and metrics to identify opportunities for further refinement and improvement.</p>
+                              </li>
+                          </ol>
+                      </div>
+                  </section>
+                  
+                  <section class="results">
+                      <h5>Results</h5>
+                      
+                      <div class="subsection">
+                          <h6>Quantitative Impact</h6>
+                          <ul>
+                              <li>Significant increase in non-technical users creating forms independently</li>
+                              <li>Reduction in support tickets related to form creation</li>
+                              <li>Higher completion rates for forms created with the new builder</li>
+                              <li>Expanded use cases across new industries and departments</li>
+                          </ul>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Qualitative Impact</h6>
+                          <ul>
+                              <li>Successfully transformed perception from a technical tool to a business solution</li>
+                              <li>Positive feedback from both technical and non-technical users</li>
+                              <li>Enabled new use cases that weren't possible with the previous interface</li>
+                              <li>Created a foundation for future expansion into new verticals</li>
+                          </ul>
+                      </div>
+                  </section>
+                  
+                  <section class="learnings">
+                      <h5>Key Learnings</h5>
+                      <ol>
+                          <li>
+                              <strong>Balance is critical</strong>: When transforming technical products for broader audiences, finding the right balance between power and simplicity is essential.
+                          </li>
+                          <li>
+                              <strong>Progressive disclosure</strong>: Designing interfaces that reveal complexity gradually allows both simple and advanced use cases to coexist.
+                          </li>
+                          <li>
+                              <strong>Cross-functional collaboration</strong>: Close partnership between design, product, and engineering teams was crucial for successful implementation of complex interaction patterns.
+                          </li>
+                          <li>
+                              <strong>Contextual guidance</strong>: Building help and suggestions directly into the interface proved more effective than separate documentation.
+                          </li>
+                      </ol>
+                  </section>
+              </div>
+              </div>
+            </div>
+
+            <div class="case-item ux-designer ui-designer" id="case-onboarding">
+              <div class="case-header">
+                <a href="#case-onboarding" class="case-trigger" onclick="toggleCase('case-onboarding'); return false;">
+                  <span class="case-arrow">►</span>
+                  <span class="case-title">Candidates onboarding: <span class="case-subtitle">Boosting Profile Completion Rate</span></span>
+                </a>
+              </div>
+              <div class="case-content">
+                <div class="case-study">
+              
+                
+                  <section class="client-overview">
+                      <h5>Client Overview</h5>
+                      <p>Geekhunter is a specialized connection hub for developers and companies, enabling developers to analyze job propositions and choose opportunities that best fit their skills, interests, and career goals.</p>
+                  </section>
+                  
+                  <section class="challenge">
+                      <h5>Challenge</h5>
+                      <p>When I joined the project, only 35% of candidates were completing their profiles and mandatory skills tests. This presented a significant barrier to platform effectiveness, as candidates must complete these steps to become visible to potential employers and receive job propositions.</p>
+                  </section>
+                  
+                  <section class="goal">
+                      <h5>Goal</h5>
+                      <p>Improve the percentage of candidates successfully completing the onboarding process and required skills tests, ultimately increasing the number of qualified developers visible to hiring companies.</p>
+                  </section>
+                  
+                  <section class="my-role">
+                      <h5>My Role</h5>
+                      <p>As the lead UX/UI designer on this project, I collaborated with a product manager and two developers to redesign the candidate onboarding experience. My responsibilities included:</p>
+                      <ul>
+                          <li>Problem identification and user research</li>
+                          <li>Conducting interviews and surveys</li>
+                          <li>Competitive analysis</li>
+                          <li>User journey mapping</li>
+                          <li>Stakeholder workshops</li>
+                          <li>Wireframing and prototyping</li>
+                          <li>User testing</li>
+                          <li>Visual design implementation</li>
+                          <li>Post-launch analysis and optimization</li>
+                      </ul>
+                  </section>
+                  
+                  <section class="process">
+                      <h5>Process</h5>
+                      
+                      <div class="subsection">
+                          <h6>Discovery Phase</h6>
+                          <ol>
+                              <li>
+                                  <strong>User Session Analysis</strong>
+                                  <p>I began by analyzing user sessions during the onboarding process using Freshworks tools. I collected recordings of users who abandoned the process to identify drop-off points and friction areas. To build empathy, I arranged viewing sessions with our entire squad so everyone could directly observe user struggles.</p>
+                              </li>
+                              <li>
+                                  <strong>Quantitative Research</strong>
+                                  <p>Based on initial findings, I designed and conducted surveys targeting users who had abandoned the onboarding process. The surveys focused on two key questions:</p>
+                                  <ul>
+                                      <li>Why did they abandon the process?</li>
+                                      <li>Why didn't they return to complete it later?</li>
+                                  </ul>
+                                  <p>I leveraged our database to reach out to users who had only completed the initial steps (providing email and name). With a 20% response rate, this provided valuable quantitative data about abandonment patterns.</p>
+                              </li>
+                              <li>
+                                  <strong>In-Depth User Interviews</strong>
+                                  <p>To incentivize participation, I offered interview participants entry into a raffle. This approach helped secure 15 in-depth interviews with users who had abandoned the onboarding process. These interviews explored:</p>
+                                  <ul>
+                                      <li>Detailed explanations of their survey responses</li>
+                                      <li>Factors that would motivate them to complete the onboarding</li>
+                                      <li>Competing platforms they were using instead</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Key Insight</strong>
+                                  <p>After synthesizing the research data, one critical insight emerged as the primary barrier:</p>
+                                  <blockquote>The onboarding process took too long to complete, leading to high abandonment rates.</blockquote>
+                                  <p>With this clear problem statement, we could focus our efforts on optimizing the length and complexity of the onboarding flow.</p>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Ideation & Design</h6>
+                          <ol>
+                              <li>
+                                  <strong>Strategic Prioritization</strong>
+                                  <p>After analyzing the full user journey, I identified that programming tests represented the most significant barrier for users. Since this was also an area where we could provide immediate value, I focused initial efforts there.</p>
+                              </li>
+                              <li>
+                                  <strong>Gamification Implementation</strong>
+                                  <p>I explored various gamification mechanics to increase test completion rates. The most successful approach was offering time-limited incentives: users who completed tests within 48 hours received subscription rewards from our partner companies. This provided motivation while costing us virtually nothing.</p>
+                              </li>
+                              <li>
+                                  <strong>A/B Testing</strong>
+                                  <p>To validate our approach, I implemented A/B testing for the gamification features. This ensured the improvements weren't just seasonal fluctuations and provided data-driven evidence for our design decisions.</p>
+                              </li>
+                              <li>
+                                  <strong>Profile Completion Redesign</strong>
+                                  <p>After improving test completion rates, I turned attention to the profile completion process. My approach included:</p>
+                                  <ul>
+                                      <li>Identifying and separating required fields from optional fields</li>
+                                      <li>Restructuring the form to prioritize essential information</li>
+                                      <li>Creating a dashboard that showed incomplete fields and explained how they would improve the candidate's visibility score</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <strong>Information Architecture</strong>
+                                  <p>I conducted card sorting exercises with colleagues to determine the optimal field order and page organization. This helped us create a more intuitive flow that reduced cognitive load.</p>
+                              </li>
+                              <li>
+                                  <strong>Wireframing & Prototyping</strong>
+                                  <p>Based on competitive analysis and our existing design system, I created multiple iterations of wireframes and prototypes for the redesigned onboarding flow.</p>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Testing & Validation</h6>
+                          <ol>
+                              <li>
+                                  <strong>Guerrilla Testing</strong>
+                                  <p>Taking advantage of our office location in a tech hub, I conducted guerrilla testing with developers from neighboring companies. This provided access to our exact target audience for immediate feedback.</p>
+                              </li>
+                              <li>
+                                  <strong>Team Observation</strong>
+                                  <p>I invited skeptical team members to observe the testing sessions. This firsthand exposure to user struggles helped build consensus around the proposed changes and demonstrated the value of user testing.</p>
+                              </li>
+                              <li>
+                                  <strong>Iterative Refinement</strong>
+                                  <p>After each testing session, I made immediate adjustments to the prototype before testing with the next participant. This rapid iteration cycle allowed us to quickly address issues and validate solutions.</p>
+                              </li>
+                          </ol>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Implementation & Launch</h6>
+                          <ol>
+                              <li>
+                                  <strong>Design Documentation</strong>
+                                  <p>I created comprehensive design documentation to ensure the development team had clear guidelines for implementation.</p>
+                              </li>
+                              <li>
+                                  <strong>Phased Rollout</strong>
+                                  <p>We implemented a gradual rollout strategy, closely monitoring metrics to identify any unforeseen issues not caught during testing.</p>
+                              </li>
+                              <li>
+                                  <strong>Continuous Iteration</strong>
+                                  <p>Based on early user feedback, we made several post-launch adjustments to further optimize the experience.</p>
+                              </li>
+                          </ol>
+                      </div>
+                  </section>
+                  
+                  <section class="results">
+                      <h5>Results</h5>
+                      
+                      <div class="subsection">
+                          <h6>Quantitative Impact</h6>
+                          <ul>
+                              <li><strong>60% increase</strong> in skills test completion rates after implementing the gamification features</li>
+                              <li><strong>70% increase</strong> in overall onboarding completion within one month of the full redesign launch</li>
+                              <li>Steadily improving metrics as the rollout expanded to more users</li>
+                          </ul>
+                      </div>
+                      
+                      <div class="subsection">
+                          <h6>Qualitative Impact</h6>
+                          <ul>
+                              <li>Improved team alignment through shared observation of user behavior</li>
+                              <li>Greater developer satisfaction with the onboarding process</li>
+                              <li>Increased developer visibility to potential employers</li>
+                          </ul>
+                      </div>
+                  </section>
+                  
+                  <section class="learnings">
+                      <h5>Key Learnings</h5>
+                      <ol>
+                          <li>
+                              <strong>Team Involvement</strong>: Bringing everyone on the team to the same page creates a sense of ownership and motivates everyone to contribute their best work.
+                          </li>
+                          <li>
+                              <strong>Process Flexibility</strong>: While having a structured design process is essential, adapting methodologies to project needs is equally important. Not every step needs to be followed rigidly if it doesn't serve the specific project goals.
+                          </li>
+                          <li>
+                              <strong>Staged Improvements</strong>: Addressing the most critical barriers first allowed us to make significant improvements quickly before tackling more complex aspects of the experience.
+                          </li>
+                          <li>
+                              <strong>Value of Direct Observation</strong>: Having team members directly observe user testing created more empathy and understanding than any report or presentation could achieve.
+                          </li>
+                      </ol>
+                  </section>
+              </div>
+            </div>
+
+            <div class="case-item product-designer ux-designer ui-designer" id="case-ai-agent">
+              <div class="case-header">
+                <a href="#case-ai-agent" class="case-trigger" onclick="toggleCase('case-ai-agent'); return false;">
+                  <span class="case-arrow">►</span>
+                  <span class="case-title"><span class="new-tag">(new!)</span> AI agronomist agent: <span class="case-subtitle">Helping users to excel at their jobs</span></span>
+                </a>
+              </div>
+              <div style="display:flex; align-items: baseline; position: relative;" class="case-content">
+                <p>For more information about this project, Schedule a time with me: </p>
+                <!-- Google Calendar Appointment Scheduling begin -->
+                <link  href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                  <script>
+                    (function() {
+                      var target = document.currentScript;
+                      window.addEventListener('load', function() {
+                      calendar.schedulingButton.load({
+                      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0B-7w5mlM6l2lbIxdky33BHyuw2vKD442pCxSES6kXnO3Elqm2feib8EAckT5Jm_oLlsDZgwf8?gv=true',
+                      color: '#000000',
+                      label: "Schedule a quick chat",
+                      target,
+                      });
+                      });
+                      })();
+                    </script>
+<!-- end Google Calendar Appointment Scheduling -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Get elements
+    const introSection = document.getElementById('intro-section');
+    //const headerDropdown = document.getElementById('header-dropdown');
+    const introRoleSelect = document.getElementById('intro-role-select');
+    const headerRoleSelect = document.getElementById('header-role-select');
+    const nameLink = document.getElementById('name-link');
+  
+    
+    // Initialize
+    let activeCase = null;
+    
+    // Check URL hash on load
+    window.addEventListener('load', function() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#case-')) {
+        const caseId = hash.substring(1);
+        toggleCase(caseId);
+      }
+      
+      // Set initial role and filter cases
+      filterCases();
+    });
+    
+    // Name link reloads the page
+    nameLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.reload();
+    });
+    
+    // Sync dropdown selects
+    function syncSelects(selectElement) {
+      const value = selectElement.value;
+      introRoleSelect.value = value;
+      headerRoleSelect.value = value;
+      filterCases();
+    }
+    
+    // Filter cases based on selected role
+    function filterCases() {
+      const selectedRole = headerRoleSelect.value;
+      const caseItems = document.querySelectorAll('.case-item');
+      
+      caseItems.forEach(item => {
+        if (item.classList.contains(selectedRole.toLowerCase().replace(' ', '-'))) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+          // If this was the active case, close it
+          if (item.id === activeCase) {
+            closeCase(item.id);
+          }
+        }
+      });
+    }
+    
+    // Toggle case open/close
+    function toggleCase(caseId) {
+      if (activeCase === caseId) {
+        // Close the case
+        closeCase(caseId);
+      } else {
+        // Close any open case
+        if (activeCase) {
+          closeCase(activeCase);
+        }
+        
+        // Open the new case
+        openCase(caseId);
+      }
+    }
+    
+    // Open a case
+    function openCase(caseId) {
+      const caseElement = document.getElementById(caseId);
+      const caseContent = caseElement.querySelector('.case-content');
+      
+      // Update active case
+      activeCase = caseId;
+      
+      // Show case content
+      caseContent.classList.add('case-content-visible');
+      
+      // Hide intro section with transition
+      introSection.classList.add('intro-hidden');
+      
+      // Show header dropdown with transition
+     // headerDropdown.classList.add('header-dropdown-visible');
+
+      nameLink.classList.add('name-visible');
+      
+      // Update URL
+      window.location.hash = caseId;
+    }
+    
+    // Close a case
+    function closeCase(caseId) {
+      const caseElement = document.getElementById(caseId);
+      const caseContent = caseElement.querySelector('.case-content');
+      
+      // Hide case content
+      caseContent.classList.remove('case-content-visible');
+      
+      // Clear active case
+      activeCase = null;
+      
+      // Show intro section with transition
+      introSection.classList.remove('intro-hidden');
+      
+      // Hide header dropdown with transition
+      //headerDropdown.classList.remove('header-dropdown-visible');
+
+      nameLink.classList.remove('name-visible');
+      
+      // Clear URL hash
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
+  </script>
+</body>
+</html>
